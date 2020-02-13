@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BinePlex</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle
+								navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span
+								class="icon-bar"></span></button> <a href="index.html" class="navbar-brand">
+							BinePlex</a>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="index.html">Movies</a>
+							</li>
+							<li>
+								<a href="trailer.html">Trailers</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Theaters<strong
+										class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">Theater1</a>
+									</li>
+									<li>
+										<a href="#">Theater2</a>
+									</li>
+									<li>
+										<a href="#">Theater3</a>
+									</li>
+									<li>
+										<a href="#">Other Theater</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" />
+							</div> <button type="submit" class="btn btn-default"> Search</button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="#">Log In</a>
+							</li>
+							<li>
+								<a href="#">Sign Up</a>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">More<strong
+										class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">About Us</a>
+									</li>
+									<li class="divider">
+									</li>
+									<li>
+										<a href="#">Contact Us</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<br></br>
+	<br></br>
+
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<div class="jumbotron">
+					<div class="container">
+						<h1>Welcome to Bineplex</h1>
+						<p>CineBlex is a online Movie Booking System that can help you buy movie ticket online as esay
+							as possible.</p>
+						</p>
+					</div>
+				</div>
+				<div class="carousel slide" id="carousel-494877">
+
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-494877" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-494877" data-slide-to="1"></li>
+						<li data-target="#carousel-494877" data-slide-to="2"></li>
+						<li data-target="#carousel-494877" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img alt="" src="cat.jpg" style="width:1200px;height:400px;">
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item">
+							<img alt="" src="joker2.jpg" style="width:1200px;height:400px;">
+							<div class="carousel-caption">
+								<h4>
+									Joker
+								</h4>
+							</div>
+						</div>
+						<div class="item">
+							<img alt="" src="it2.jpg" src="it.jpg" style="width:1200px;height:400px;">
+							<div class="carousel-caption">
+								<h4>
+									It
+								</h4>
+
+							</div>
+						</div>
+						<div class="item">
+							<img alt="" src="LionKing2.jpg" src="joker2.jpg" style="width:1200px;height:400px;">
+							<div class="carousel-caption">
+								<h4>
+									LionKing
+								</h4>
+							</div>
+						</div>
+					</div>
+					<a class="left carousel-control" href="#carousel-494877" data-slide="prev"><span
+							class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" href="#carousel-494877" data-slide="next"><span
+							class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br></br>
+
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+					<span class="glyphicon glyphicon-sort-by-attributes-alt"></span> Sort by :
+				</h3>
+			</div>
+			<div class="panel-body">
+				<div class="row clearfix">
+					<div class="col-md-12 column">
+						<div class="tabbable" id="sort">
+							<ul class="nav nav-tabs">
+								<li class="active">
+									<a href="#New" data-toggle="tab"><img src="new.jpeg"
+											style="width: 60px; height: 25px;"></a>
+								</li>
+								<li>
+									<a href="#Rank" data-toggle="tab" style="font-size: large;"> Star <span
+											class="glyphicon glyphicon-star"></span></a>
+								</li>
+								<li>
+									<a href="#Trend" data-toggle="tab" style="font-size: large;">Trend <span
+											class="glyphicon glyphicon-signal"></span></a>
+								</li>
+							</ul>
+							<div class="tab-content">
+								<div class="tab-pane active" id="New">
+									<ul></ul>
+									<div class="row clearfix">
+										<div class="col-md-12 column">
+											<div class="row">
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="joker.jpg" alt="joker">
+														<div class="caption">
+															<h4>JOKER</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>7.3/10
+															</p>
+															<a href="joker.html" class="btn btn-primary"
+																role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="it.jpg" alt="it">
+														<div class="caption">
+															<h4>IT</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>6.8/10
+																<p>
+																</p>
+																<a href="it.html" class="btn btn-primary"
+																	role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="LionKing.jpg" alt="LionKing">
+														<div class="caption">
+															<h4>The Lion King</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>7.0/10
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary"
+																	role="button">Ticket</a>
+
+														</div>
+													</div>
+												</div>
+
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="frozen2.jpg" alt="frozen2">
+														<div class="caption">
+															<h4>Frozen2</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>7.3/10
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary"
+																	role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="terminator.jpg" alt="terminator">
+														<div class="caption">
+															<h4>Terminator</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>6.5/10
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary"
+																	role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="gemini man.jpg" alt="gemini man">
+														<div class="caption">
+															<h4>Gemini Man</h4>
+															<p><span class="glyphicon glyphicon-calendar"></span>15.11
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary disabled"
+																	role="button" style="background-color: pink">COMING
+																	SOON</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane" id="Rank">
+									<ul></ul>
+									<div class="row clearfix">
+										<div class="col-md-12 column">
+											<div class="row">
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="joker.jpg" alt="joker">
+														<div class="caption">
+															<h4>JOKER</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>7.3/10
+															</p>
+															<a href="joker.html" class="btn btn-primary"
+																role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="frozen2.jpg" alt="frozen2">
+														<div class="caption">
+															<h4>Frozen2</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>7.3/10
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary"
+																	role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="LionKing.jpg" alt="LionKing">
+														<div class="caption">
+															<h4>The Lion King</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>7.0/10
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary"
+																	role="button">Ticket</a>
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="it.jpg" alt="it">
+														<div class="caption">
+															<h4>IT</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>6.8/10
+																<p>
+																</p>
+																<a href="it.html" class="btn btn-primary"
+																	role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="terminator.jpg" alt="terminator">
+														<div class="caption">
+															<h4>Terminator</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>6.5/10
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary"
+																	role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="gemini man.jpg" alt="gemini man">
+														<div class="caption">
+															<h4>Gemini Man</h4>
+															<p><span class="glyphicon glyphicon-calendar"></span>15.11
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary disabled"
+																	role="button" style="background-color: pink">COMING
+																	SOON</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane" id="Trend">
+									<ul></ul>
+									<div class="row clearfix">
+										<div class="col-md-12 column">
+											<div class="row">
+
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="gemini man.jpg" alt="gemini man">
+														<div class="caption">
+															<h4>Gemini Man</h4>
+															<p><span class="glyphicon glyphicon-calendar"></span>15.11
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary disabled"
+																	role="button" style="background-color: pink">COMING
+																	SOON</a>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="joker.jpg" alt="joker">
+														<div class="caption">
+															<h4>JOKER</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>7.3/10
+															</p>
+															<a href="joker.html" class="btn btn-primary"
+																role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="frozen2.jpg" alt="frozen2">
+														<div class="caption">
+															<h4>Frozen2</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>7.3/10
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary"
+																	role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="it.jpg" alt="it">
+														<div class="caption">
+															<h4>IT</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>6.8/10
+																<p>
+																</p>
+																<a href="it.html" class="btn btn-primary"
+																	role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="LionKing.jpg" alt="LionKing">
+														<div class="caption">
+															<h4>The Lion King</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>7.0/10
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary"
+																	role="button">Ticket</a>
+
+														</div>
+													</div>
+												</div>
+
+												<div class="col-sm-5 col-md-2">
+													<div class="thumbnail">
+														<img src="terminator.jpg" alt="terminator">
+														<div class="caption">
+															<h4>Terminator</h4>
+															<p>IMDb <span
+																	class="glyphicon glyphicon-star-empty"></span>6.5/10
+																<p>
+																</p>
+																<a href="#" class="btn btn-primary"
+																	role="button">Ticket</a>
+														</div>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
